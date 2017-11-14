@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{67B7D537-0FE0-42E5-9028-21F055CF4B31}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="hw1_landing_page/index.html">
+    <Files>
+      <File FileName="exam1/index.html" Line="9" Column="63" />
+      <File FileName="exam1/tracks.html" Line="59" Column="11" />
+      <File FileName="exam1/personnel.html" Line="90" Column="36" />
+      <File FileName="exam1/feedback.html" Line="43" Column="59" />
+      <File FileName="exam1/css/style.css" Line="46" Column="1" />
+      <File FileName="exam1/bootstrap.html" Line="21" Column="24" />
+      <File FileName="exam1/yourlatesttrick.html" Line="42" Column="22" />
+      <File FileName="exam1/oneworld.html" Line="51" Column="8" />
+      <File FileName="exam1/sofaraway.html" Line="59" Column="34" />
+      <File FileName="hw1_landing_page/index.html" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.hw1__landing__page PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

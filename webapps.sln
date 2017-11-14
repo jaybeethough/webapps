@@ -1,0 +1,18 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "hw1_landing_page", "hw1_landing_page\hw1_landing_page.mdproj", "{67B7D537-0FE0-42E5-9028-21F055CF4B31}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "exam1", "exam1\exam1.mdproj", "{07935B5E-186C-42B3-9F2F-F8B9683F8867}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Any CPU = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67B7D537-0FE0-42E5-9028-21F055CF4B31}.Default|Any CPU.ActiveCfg = Default|Any CPU
+		{67B7D537-0FE0-42E5-9028-21F055CF4B31}.Default|Any CPU.Build.0 = Default|Any CPU
+		{07935B5E-186C-42B3-9F2F-F8B9683F8867}.Default|Any CPU.ActiveCfg = Default|Any CPU
+		{07935B5E-186C-42B3-9F2F-F8B9683F8867}.Default|Any CPU.Build.0 = Default|Any CPU
+	EndGlobalSection
+EndGlobal

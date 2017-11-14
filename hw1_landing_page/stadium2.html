@@ -1,0 +1,77 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Jeremiah Cone</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <style>
+        #map {
+         height: 400px;
+         width: 50%;
+        }
+    </style>
+    <script>
+        document.registerElement('google-maps');
+
+
+      function initMap() {
+        var uluru = {lat: 53.483, lng: -2.200};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6lbclOiiKSwrKWBC0DzMb47uZ_aRZvok&callback=initMap">
+    </script>
+    <link rel="import" href="loader.html
+</head>
+<body>
+<img src="stadium.jpeg" />
+
+    <form>
+
+        <label for="ticketdate">TicketDate:</label>
+        <input name="ticketdate" type="date" />
+        <input type="submit" name="submit" />
+    </form>
+
+    <google-maps>
+        <div id="map"
+    </google-maps>
+
+<footer>
+    <nav>
+        <h1>Navigation</h1>
+        <ul>
+            <li><a href="index.html">Index home</a></li>
+            <li><a href="squad.html">Squad Linup</a></li>
+            <li><a href="stadium.html">Stadium Location</a></li>
+            <li><a href="stadium2.html">Stadium2 Location</a></li>
+        </ul>
+    </nav>
+</footer>
+</body>
+</html>

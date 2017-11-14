@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ItemType>GenericProject</ItemType>
+    <ProjectGuid>{07935B5E-186C-42B3-9F2F-F8B9683F8867}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Default|AnyCPU' ">
+    <OutputPath>.\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="index.html" />
+    <None Include="bootstrap.html" />
+    <None Include="css\style.css" />
+    <None Include="css\sticky-footer.css" />
+    <None Include="tracks.html" />
+    <None Include="personnel.html" />
+    <None Include="feedback.html" />
+    <None Include="css\bootstrap.min.css" />
+    <None Include="fonts\glyphicons-halflings-regular.svg" />
+    <None Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="js\bootstrap.min.js" />
+    <None Include="sofaraway.html" />
+    <None Include="yourlatesttrick.html" />
+    <None Include="oneworld.html" />
+    <None Include="img\BrothersInArms.jpg" />
+    <None Include="img\clark.jpg" />
+    <None Include="img\fletcher.jpg" />
+    <None Include="img\hakim.jpeg" />
+    <None Include="img\illsley.jpg" />
+    <None Include="img\knopfler.jpg" />
+    <None Include="img\williams.jpg" />
+    <None Include="img\favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="fonts\" />
+    <Folder Include="img\" />
+    <Folder Include="js\" />
+  </ItemGroup>
+</Project>

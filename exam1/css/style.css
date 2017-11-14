@@ -1,0 +1,62 @@
+﻿html {
+    position: relative;
+    min-height: 100%;
+}
+
+body { /* Margin bottom by footer height */
+    padding-top: 5rem;
+    margin-bottom: 60px;
+}
+/* Custom page CSS-------------------------------------------------- */ /* Not required for template or sticky footer method. */
+
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
+
+    .container .text-muted {
+        margin: 20px 0;
+    }
+
+code {
+    font-size: 80%;
+}
+
+li {
+    transition: background 0.2s ease-in;
+}
+
+li:nth-child(even) {
+    background: silver;
+}
+
+li:hover {
+    background: silver;
+    cursor: pointer;
+}
+
+.lyrics p:nth-child(even) {
+    background: white;
+}
+
+.chorus {
+    font-style:italic;
+}
+
+
+nav li {
+    font-family: 'Arimo', sans-serif;
+}
+
+h1 {
+    font-family: 'Quantico', sans-serif;
+}
+
+h2 {
+    font-family: 'Economica', sans-serif;
+}
+
+footer {
+    font-family: 'Economica', sans-serif;
+}

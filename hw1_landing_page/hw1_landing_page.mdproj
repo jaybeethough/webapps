@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ItemType>GenericProject</ItemType>
+    <ProjectGuid>{67B7D537-0FE0-42E5-9028-21F055CF4B31}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Default|AnyCPU' ">
+    <OutputPath>.\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="index2.html" />
+    <None Include="android-icon-36x36.png" />
+    <None Include="android-icon-48x48.png" />
+    <None Include="android-icon-72x72.png" />
+    <None Include="android-icon-96x96.png" />
+    <None Include="android-icon-144x144.png" />
+    <None Include="android-icon-192x192.png" />
+    <None Include="apple-icon-57x57.png" />
+    <None Include="apple-icon-60x60.png" />
+    <None Include="apple-icon-72x72.png" />
+    <None Include="apple-icon-76x76.png" />
+    <None Include="apple-icon-114x114.png" />
+    <None Include="apple-icon-120x120.png" />
+    <None Include="apple-icon-144x144.png" />
+    <None Include="apple-icon-152x152.png" />
+    <None Include="apple-icon-180x180.png" />
+    <None Include="apple-icon-precomposed.png" />
+    <None Include="apple-icon.png" />
+    <None Include="browserconfig.xml" />
+    <None Include="favicon-16x16.png" />
+    <None Include="favicon-32x32.png" />
+    <None Include="favicon-96x96.png" />
+    <None Include="favicon.ico" />
+    <None Include="manifest.json" />
+    <None Include="ms-icon-70x70.png" />
+    <None Include="ms-icon-144x144.png" />
+    <None Include="squad.html" />
+    <None Include="stadium.html" />
+    <None Include="stadium2.html" />
+    <None Include="loader.html" />
+    <None Include="css\main.css" />
+    <None Include="css\normalize.css" />
+    <None Include="index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+  </ItemGroup>
+</Project>
